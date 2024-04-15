@@ -1,5 +1,5 @@
 # Defined in Dockerfile.lerna
-FROM lerna:latest
+FROM public.ecr.aws/i1g6n8s2/lerna:latest
 
 USER root
 
