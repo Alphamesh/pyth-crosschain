@@ -3,3 +3,12 @@
   time_difference: 6000
   price_deviation: 0.5
   confidence_ratio: 1
+  early_update:
+    time_difference: 600
+    price_deviation: 0.1
+    confidence_ratio: 0.5
+- alias: ENA/USD
+  id: "0xb7910ba7322db020416fcac28b48c01212fd9cc8fbcbaf7d30477ed8605f6bd4"
+  time_difference: 600
+  price_deviation: 0.5
+  confidence_ratio: 1
