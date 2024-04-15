@@ -19,4 +19,4 @@ RUN npx lerna run build --scope="@pythnetwork/price-pusher" --include-dependenci
 
 WORKDIR /home/node/price_pusher
 
-ENTRYPOINT [ "npm", "run", "start" ]
+#ENTRYPOINT [ "npm", "run", "start" ]
