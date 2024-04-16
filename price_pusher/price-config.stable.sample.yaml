@@ -1,6 +1,6 @@
 - alias: USDE/USD
   id: "0x6ec879b1e9963de5ee97e9c8710b742d6228252a5e2ca12d4ae81d7fe5ee8c5d"
-  time_difference: 6000
+  time_difference: 43200
   price_deviation: 0.5
   confidence_ratio: 1
   early_update:
@@ -9,6 +9,6 @@
     confidence_ratio: 0.5
 - alias: ENA/USD
   id: "0xb7910ba7322db020416fcac28b48c01212fd9cc8fbcbaf7d30477ed8605f6bd4"
-  time_difference: 600
-  price_deviation: 2
+  time_difference: 43200
+  price_deviation: 3
   confidence_ratio: 1
