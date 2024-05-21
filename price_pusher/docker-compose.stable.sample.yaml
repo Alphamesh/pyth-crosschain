@@ -35,6 +35,6 @@ services:
       - price_config
 configs:
   mnemonic:
-    file: ./path/to/mnemonic.txt # Replace this with the path to the mnemonic file
+    file: ./mnemonic.txt # Replace this with the path to the mnemonic file
   price_config:
     file: ./price-config.stable.sample.yaml # Replace this with the path to the price configuration file
