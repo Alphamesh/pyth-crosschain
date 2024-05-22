@@ -165,12 +165,12 @@ npm run start -- {network} --help
 
 ### Example
 
-For example, to push `BTC/USD` and `BNB/USD` prices on Fantom testnet, run the following command:
+For example, to push `ENA/USD` and `USDE/USD` prices on mantle testnet, run the following command:
 
 ```sh
 npm run dev -- evm \
-  --endpoint https://endpoints.omniatech.io/v1/fantom/testnet/public \
-  --pyth-contract-address 0x5744Cbf430D99456a0A8771208b674F27f8EF0Fb \
+  --endpoint https://rpc.mantle.xyz \
+  --pyth-contract-address 0xA2aa501b19aff244D90cc15a4Cf739D2725B5729 \
   --price-service-endpoint https://hermes.pyth.network \
   --mnemonic-file "./mnemonic" \
   --price-config-file "./price-config.stable.sample.yaml"
